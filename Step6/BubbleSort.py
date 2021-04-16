@@ -1,4 +1,3 @@
-#bubble sort
 
 # arr = [1,2,4,3]
 # for i in range(len(arr)):
@@ -10,4 +9,3 @@
 #     if swapped == False:
 #         break
 # print(arr)
-
