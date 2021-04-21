@@ -6,7 +6,16 @@ def isEmpty(stack):
     else:
         return "stack is empty"
 
-def insert_stack(stack):
-    
+def insert_stack(stack,element):
+    stack.append(element)
 
-print(isEmpty(stack))
+def remove_stack(stack):
+    stack.pop()
+
+def print_stack(stack):
+    return stack
+
+def top_most(stack):
+    return stack[len(stack)-1]
+
+# print(isEmpty(stack))
