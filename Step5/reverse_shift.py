@@ -1,5 +1,3 @@
-
-
 # arr = [1,6,2,5,3]
 # m = int(input())%len(arr)
 # print(m)
@@ -8,8 +6,3 @@
 # print(arr)
 # arr = arr[m:]+arr[:m]
 # print(arr)
-
-
-
-
-
