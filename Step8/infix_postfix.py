@@ -33,10 +33,3 @@ def postfix_conversion(s):
 s= "A*(B+C/D)"
 print(postfix_conversion(s))
 
-
-b = "a+b*(a+b*c)"
-
-"ababc*+*+"
-
-c = "a+b*(a*b+c)"
-"abab*c+*+"
