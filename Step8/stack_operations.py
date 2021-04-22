@@ -1,3 +1,4 @@
+from collections import deque
 stack = []
 
 def isEmpty(stack):
@@ -19,3 +20,4 @@ def top_most(stack):
     return stack[len(stack)-1]
 
 # print(isEmpty(stack))
+# print(dir(deque))
