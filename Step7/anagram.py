@@ -1,7 +1,7 @@
 #method 1
 
-# main = "abc"
-# to_compared = "bca"
+# main = "abbc"
+# to_compared = "abcc"
 # counter = 0
 # for i in main:
 #     if i in to_compared:
@@ -15,8 +15,8 @@
 
 #method 2
 
-# main = "abc"
-# to_compared = "baa"
+# main = "abbc"
+# to_compared = "abcc"
 # for i in range(len(main)):
 #     if main[i] in to_compared:
 #         if i == len(main)-1 and len(main) == len(to_compared):
