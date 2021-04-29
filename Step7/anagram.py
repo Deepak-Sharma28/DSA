@@ -23,3 +23,20 @@
 #             print("anagram string")
 #     else:
 #         print("Not a anagram string")
+
+
+
+stack = list(input("enter a word"))
+
+to_compared = input("enter a word")
+
+if len(stack) == len(to_compared):
+    for i in range(len(stack)):
+        if stack[i] in to_compared:
+            stack.pop(i)
+    if stack:
+        print("NO")
+    else:
+        print("Yes")
+else:
+    print("NO")
