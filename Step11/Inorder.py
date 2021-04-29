@@ -29,7 +29,7 @@ def printInorder(root):
             printInorder(root.left)
  
         # then print the data of node
-            print(root.val),
+            print(root.data),
  
         # now recur on right child
             printInorder(root.right)
@@ -40,4 +40,4 @@ root.insertright(65)
 root.insertright(60)
 printInorder(root)
 
-# print(root.self)
+
